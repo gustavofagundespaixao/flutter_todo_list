@@ -1,7 +1,5 @@
 # todo_list
 
-![Uploading Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-15 at 13.20.02.png…]()
-
 A new Flutter project.
 
 ## Getting Started
