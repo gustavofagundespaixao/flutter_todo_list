@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:build_context/build_context.dart';
 import 'package:todo_list/models/todo_model.dart';
+import 'package:todo_list/widgets/drawer_widget.dart';
 import 'package:todo_list/widgets/todo_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,25 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Todo list')),
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            UserAccountsDrawerHeader(
-              currentAccountPicture: CircleAvatar(
-                backgroundColor: Colors.white,
-                child: FlutterLogo(
-                  colors: context.primaryColor,
-                  style: FlutterLogoStyle.stacked,
-                  size: 55,
-                ),
-              ),
-              accountName: Text('Todo list'),
-              accountEmail: Text('Username'),
-            ),
-            ListTile(leading: Icon(Icons.list), title: Text('Todo list')),
-          ],
-        ),
-      ),
+      drawer: DrawerWidget(),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () => setState(
