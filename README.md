@@ -1,7 +1,5 @@
 # todo_list
 
-'A new Flutter project. Created by Slidy'
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
