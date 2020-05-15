@@ -1,6 +1,6 @@
 # todo_list
 
-![](screens_shot.png)
+<img src="screens_shot.png" height="500px">
 
 A new Flutter project.
 
