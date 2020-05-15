@@ -1,5 +1,7 @@
 # todo_list
 
+![](screens_shot.png)
+
 A new Flutter project.
 
 ## Getting Started
