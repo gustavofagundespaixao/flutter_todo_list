@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todo_list/pages/home_page.dart';
 
-void main() => runApp(AppWidget());
+void main() => runApp(MyApp());
 
-class AppWidget extends StatefulWidget {
+class MyApp extends StatefulWidget {
   @override
-  _AppWidgetState createState() => _AppWidgetState();
+  _MyAppState createState() => _MyAppState();
 }
 
-class _AppWidgetState extends State<AppWidget> {
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,8 +23,6 @@ class _AppWidgetState extends State<AppWidget> {
           textTheme: GoogleFonts.comfortaaTextTheme(),
         ),
         textTheme: GoogleFonts.comfortaaTextTheme(),
-        accentColor: Colors.purple,
-        primarySwatch: Colors.purple,
       ),
       home: HomePage(),
     );
